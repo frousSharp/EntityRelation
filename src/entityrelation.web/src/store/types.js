@@ -1,0 +1,18 @@
+// Getters
+export const SELECTED_ENTITY = 'entityTree/SELECTED_ENTITY'
+export const EDITABLE_ENTITY = 'entityTree/EDITABLE_ENTITY'
+export const PARENT_FOR_ADD_ENTITY = 'entityTree/PARENT_FOR_ADD_ENTITY'
+export const ISEDIT = 'entityTree/ISEDIT'
+export const IS_SUBMIT_ADD_ENTITY = 'entityTree/IS_SUBMIT_ADD_ENTITY'
+export const IS_NOT_EXIST_EDITABLE_ENTITY = 'entityTree/IS_NOT_EXIST_EDITABLE_ENTITY'
+export const TREE_NODES = 'entityTree/TREE_NODES'
+
+// Mutations
+export const MUTATE_SET_SELECTED_ENTITY = 'entityTree/MUTATE_SET_SELECTED_ENTITY'
+export const MUTATE_SET_EDITABLE_ENTITY = 'entityTree/MUTATE_SET_EDITABLE_ENTITY'
+export const MUTATE_SET_PARENT_FOR_ADD_ENTITY = 'entityTree/MUTATE_SET_PARENT_FOR_ADD_ENTITY'
+export const MUTATE_SET_ISEDIT = 'entityTree/MUTATE_SET_ISEDIT'
+export const MUTATE_SET_IS_SUBMIT_ADD_ENTITY = 'entityTree/MUTATE_SET_IS_SUBMIT_ADD_ENTITY'
+export const MUTATE_SET_TREE_NODES = 'entityTree/MUTATE_SET_TREE_NODES'
+
+// Actions

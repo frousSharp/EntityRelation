@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200227015447_AddEntityCascadeDelete.cs" />
+    <Compile Remove="Migrations\20200227015447_AddEntityCascadeDelete.Designer.cs" />
+    <Compile Remove="Migrations\20200227021316_AddEntityCascadeDelete.cs" />
+    <Compile Remove="Migrations\20200227021316_AddEntityCascadeDelete.Designer.cs" />
+    <Compile Remove="Migrations\20200227021449_AddEntityCascadeDelete.cs" />
+    <Compile Remove="Migrations\20200227021449_AddEntityCascadeDelete.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql" Version="4.1.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EntityRelationAPI.Core\EntityRelationAPI.Core.csproj" />
+  </ItemGroup>
+
+</Project>

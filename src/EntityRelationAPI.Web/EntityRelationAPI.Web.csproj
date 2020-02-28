@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EntityRelationAPI.Core\EntityRelationAPI.Core.csproj" />
+    <ProjectReference Include="..\EntityRelationAPI.DataLayer\EntityRelationAPI.DataLayer.csproj" />
+    <ProjectReference Include="..\EntityRelationAPI.Services\EntityRelationAPI.Services.csproj" />
+  </ItemGroup>
+
+</Project>
